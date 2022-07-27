@@ -1,10 +1,10 @@
 {
-  "username": "postgres",
-  "password": "docker",
+  "username": "docker",
+  "password": "ignite",
 
-  "type": "postgres",
-  "name": "default",
-  "host": "localhost",
+  "type": "challenge_databaseQueries",
+  "name": "challenge_databaseQueries",
+  "host": "127.18.0.2",
   "port": 5432,
   "database": "queries_challenge",
   "entities": ["./src/modules/**/entities/*.ts"],
